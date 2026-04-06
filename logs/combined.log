@@ -1,0 +1,29 @@
+{"level":"info","message":"hello from acquisitions","service":"acquisitions-api","timestamp":"2026-04-03T05:26:25.695Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:26:25 +0000] \"GET / HTTP/1.1\" 200 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-04-03T05:26:25.705Z"}
+{"level":"info","message":"hello from acquisitions","service":"acquisitions-api","timestamp":"2026-04-03T05:38:10.255Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:38:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-04-03T05:38:10.260Z"}
+{"level":"info","message":"hello from acquisitions","service":"acquisitions-api","timestamp":"2026-04-03T05:47:38.418Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:47:38 +0000] \"GET / HTTP/1.1\" 200 22 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-03T05:47:38.420Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:47:48 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-03T05:47:48.037Z"}
+{"level":"info","message":"Health check endpoint hit","service":"acquisitions-api","timestamp":"2026-04-03T05:48:44.487Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:48:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-03T05:48:44.488Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:48:59 +0000] \"GET /api/auth/signin HTTP/1.1\" 404 154 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-03T05:48:59.720Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:49:04 +0000] \"POST /api/auth/signin HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-03T05:49:04.273Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:05:49:55 +0000] \"POST /api/auth/signup HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-03T05:49:55.327Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:05:29:07 +0000] \"POST /api/auth/signup HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T05:29:07.794Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:05:45:07 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T05:45:07.172Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:05:47:37 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T05:47:37.326Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:05:48:09 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T05:48:09.394Z"}
+{"level":"info","message":"User created successfully: vaddimithilesh@gmail.com","service":"acquisitions-api","timestamp":"2026-04-06T05:49:23.194Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:05:49:23 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 123 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T05:49:23.196Z"}
+{"level":"info","message":"User vaddimithilesh@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-04-06T06:13:47.653Z"}
+{"level":"info","message":"User created successfully: vaddimithilesh@gmail.com","service":"acquisitions-api","timestamp":"2026-04-06T06:13:47.661Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:06:13:47 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 124 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T06:13:47.665Z"}
+{"level":"info","message":"User vaddimithileshnoob@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-04-06T06:14:25.220Z"}
+{"level":"info","message":"User created successfully: vaddimithileshnoob@gmail.com","service":"acquisitions-api","timestamp":"2026-04-06T06:14:25.222Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:06:14:25 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 122 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T06:14:25.223Z"}
+{"level":"info","message":"User logged in successfully: vaddimithileshnoob@gmail.com","service":"acquisitions-api","timestamp":"2026-04-06T06:46:54.415Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:06:46:54 +0000] \"POST /api/auth/login HTTP/1.1\" 200 124 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T06:46:54.431Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:06:47:25 +0000] \"POST /api/auth/signout HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T06:47:25.534Z"}
+{"level":"info","message":"User logged out successfully","service":"acquisitions-api","timestamp":"2026-04-06T06:47:34.731Z"}
+{"level":"info","message":"::1 - - [06/Apr/2026:06:47:34 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api","timestamp":"2026-04-06T06:47:34.732Z"}
