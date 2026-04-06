@@ -46,7 +46,7 @@ export const authenticateUser=async(email,password)=>{
 
 export const createUser=async({name,email,password,role='user'})=>{
   try{
-    const existingUser=db.select().from(users).where(eq(users.email,email)).limit(1);
+    const existingUser=await db.select().from(users).where(eq(users.email,email)).limit(1);
 
     if(existingUser.length>0){
       throw new Error('user already exists with this email');
