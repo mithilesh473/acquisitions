@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run dev
+    ports:
+      - "${PORT:-3000}:${PORT:-3000}"
+    env_file:
+      - .env.development
+    depends_on:
+      - neon-local
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+  neon-local:
+    image: neondatabase/neon_local:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - NEON_API_KEY=${NEON_API_KEY}
+      - NEON_PROJECT_ID=${NEON_PROJECT_ID}
+      - PARENT_BRANCH_ID
